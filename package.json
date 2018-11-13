@@ -1,9 +1,10 @@
 {
-  "name": "KeywordMacroscopeEv",
+  "name": "keyword-macroscope-ev",
   "version": "0.0.1",
   "description": "A simple keyword ranking desktop application.",
-  "main": "src/main.js",
+  "main": "main.js",
   "scripts": {
+    "build-sqlite3": "npm install sqlite3 --b --runtime=electron --target=3.0.9 --dist-url=https://atom.io/download/electron",
     "rebuild": "electron-rebuild -f -w sqlite3",
     "start": "electron .",
     "test": "jest"
@@ -21,16 +22,16 @@
   "homepage": "https://github.com/nazuke/KeywordMacroscopeEv#readme",
   "dependencies": {
     "sequelize": "^4.41.1",
-    "sqlite3": "^4.0.4",
-    "vue": "^2.5.17",
-    "windows-build-tools": "^5.0.0"
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "electron": "^3.0.9",
     "electron-builder": "^20.34.0",
     "electron-rebuild": "^1.8.2",
     "jest": "^23.6.0",
+    "sqlite3": "^4.0.4",
     "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "windows-build-tools": "^5.0.0"
   }
 }
