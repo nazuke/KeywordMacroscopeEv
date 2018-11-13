@@ -65,3 +65,4 @@ app.on(
 // code. You can also put them in separate files and require them here.
 
 require( './src/models' );
+require( './src/fetcher' );
