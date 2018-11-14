@@ -1,3 +1,4 @@
+const Electron = require( 'electron' );
 const { Engine } = require( '../../../../src/models.js' );
 
 test(

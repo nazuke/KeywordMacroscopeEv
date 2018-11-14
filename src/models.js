@@ -1,4 +1,5 @@
 /** BEGIN: Initialize Sequelize Database **************************************/
+const Electron = require( 'electron' );
 const Sequelize = require( 'sequelize' );
 
 const conn = new Sequelize(
